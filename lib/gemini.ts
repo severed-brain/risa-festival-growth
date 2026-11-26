@@ -121,12 +121,17 @@ export async function runGrowthAnalystChat(params: {
     );
   }
 
-  const ai = new GoogleGenAI({ apiKey });
+  const ai = new GoogleGenAI({
+    apiKey,
+    httpOptions: { retryOptions: { attempts: 1 } },
+  });
   const systemInstruction = await buildSystemPrompt();
 
+  const modelsToTry = ["gemini-3.8-flash", "gemini-3.5-flash-lite"];
+
   // Prefer server-side stateful chaining via previous_interaction_id when available,
-  // falling back to inline conversation transcript if previousInteractionId is absent or expired.
-  const callModel = async (usePrevId: boolean) => {
+  // falling back to inline conversation transcript or fallback model on 503/429 spikes.
+  const callModel = async (model: string, usePrevId: boolean) => {
     const historyTranscript =
       !usePrevId && params.conversationHistory && params.conversationHistory.length > 0
         ? `Previous conversation context:\n${params.conversationHistory
@@ -135,26 +140,53 @@ export async function runGrowthAnalystChat(params: {
             .join("\n")}\n\nLatest user message:\n${params.message}`
         : params.message;
 
-    return ai.interactions.create({
-      model: "gemini-3.8-flash",
-      input: historyTranscript,
-      system_instruction: systemInstruction,
-      ...(usePrevId && params.previousInteractionId
-        ? { previous_interaction_id: params.previousInteractionId }
-        : {}),
-    });
+    return ai.interactions.create(
+      {
+        model,
+        input: historyTranscript,
+        system_instruction: systemInstruction,
+        ...(usePrevId && params.previousInteractionId
+          ? { previous_interaction_id: params.previousInteractionId }
+          : {}),
+      },
+      { retries: { strategy: "none" }, timeout_ms: 20000 }
+    );
   };
 
   let interaction;
-  try {
-    interaction = await callModel(Boolean(params.previousInteractionId));
-  } catch (err) {
-    if (params.previousInteractionId) {
-      // Retry statelessly if the interaction ID expired or is invalid
-      interaction = await callModel(false);
-    } else {
-      throw err;
+  let modelUsed = modelsToTry[0];
+  let lastError: unknown = null;
+
+  for (const model of modelsToTry) {
+    modelUsed = model;
+    try {
+      try {
+        interaction = await callModel(model, Boolean(params.previousInteractionId));
+      } catch (err) {
+        if (params.previousInteractionId) {
+          interaction = await callModel(model, false);
+        } else {
+          throw err;
+        }
+      }
+      break;
+    } catch (err) {
+      lastError = err;
+      const msg = err instanceof Error ? err.message : String(err);
+      const isTransient =
+        msg.includes("503") ||
+        msg.includes("429") ||
+        msg.includes("service_unavailable") ||
+        msg.includes("high demand") ||
+        msg.includes("too_many_requests");
+      if (!isTransient) throw err;
     }
+  }
+
+  if (!interaction) {
+    throw lastError instanceof Error
+      ? lastError
+      : new Error("All Gemini models temporarily unavailable.");
   }
 
   const reply = interaction.output_text || "No response text returned from Gemini.";
@@ -163,6 +195,7 @@ export async function runGrowthAnalystChat(params: {
   return {
     reply,
     interactionId: interaction.id,
+    modelUsed,
     actions,
   };
 }
