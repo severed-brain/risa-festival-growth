@@ -78,6 +78,9 @@ CREATE POLICY "Allow all operations on tasks" ON tasks FOR ALL USING (true) WITH
 DROP POLICY IF EXISTS "Allow all operations on funnel_targets" ON funnel_targets;
 CREATE POLICY "Allow all operations on funnel_targets" ON funnel_targets FOR ALL USING (true) WITH CHECK (true);
 
+GRANT USAGE ON SCHEMA public TO anon, authenticated;
+GRANT ALL ON TABLE campaigns, daily_metrics, tasks, funnel_targets TO anon, authenticated;
+
 -- Seed funnel targets (idempotent reset option commented out)
 INSERT INTO funnel_targets (metric, base_target, stretch_target, current_actual) VALUES
   ('reach', 83000, 150000, 0),
