@@ -134,9 +134,10 @@ def supabase_request(url, key, method, path, body=None, extra_headers=None):
   endpoint = f"{url.rstrip('/')}/rest/v1/{path}"
   headers = {
       "apikey": key,
-      "Authorization": f"Bearer {key}",
       "Content-Type": "application/json",
   }
+  if not key.startswith("sb_"):
+    headers["Authorization"] = f"Bearer {key}"
   if extra_headers:
     headers.update(extra_headers)
   data = json.dumps(body).encode("utf-8") if body is not None else None
