@@ -1,19 +1,11 @@
-import fs from "fs";
-import path from "path";
 import { GoogleGenAI } from "@google/genai";
+import historicalDataset from "@/data/attendee_dataset_summary.json";
 import { getStoreSnapshot } from "./store";
 import { computeDashboardSummary, STRATEGY_THRESHOLDS } from "./analytics";
 import { ActionProposal } from "./types";
 
-const HISTORICAL_DATASET_FILE = path.join(
-  process.cwd(),
-  "data",
-  "attendee_dataset_summary.json"
-);
-
 export function getHistoricalDataset() {
-  if (!fs.existsSync(HISTORICAL_DATASET_FILE)) return null;
-  return JSON.parse(fs.readFileSync(HISTORICAL_DATASET_FILE, "utf-8"));
+  return historicalDataset;
 }
 
 export async function buildSystemPrompt(): Promise<string> {
