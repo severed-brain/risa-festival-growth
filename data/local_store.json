@@ -1,0 +1,1236 @@
+{
+  "campaigns": [
+    {
+      "id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "name": "Campus Ambassador Program",
+      "channel": "ambassador",
+      "status": "active",
+      "budget_allocated": 40000,
+      "budget_spent": 22688,
+      "target_registrations": 6000,
+      "actual_registrations": 2918,
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-21",
+      "owner": "Riya",
+      "notes": "1 ambassador per college x 40 Mumbai colleges; target 150 regs/ambassador",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T10:00:46.756Z"
+    },
+    {
+      "id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "name": "Instagram Reel Contest",
+      "channel": "instagram",
+      "status": "active",
+      "budget_allocated": 15000,
+      "budget_spent": 10380,
+      "target_registrations": 2000,
+      "actual_registrations": 903,
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-21",
+      "owner": "Aryan",
+      "notes": "UGC Reel campaign: Show your festival look, win free passes",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "name": "Free/Paid Ticket Split",
+      "channel": "direct",
+      "status": "active",
+      "budget_allocated": 0,
+      "budget_spent": 0,
+      "target_registrations": 3000,
+      "actual_registrations": 1471,
+      "start_date": "2026-11-28",
+      "end_date": "2026-12-21",
+      "owner": "Priya",
+      "notes": "60% free general passes (email gate), 40% paid Rs 199 premium passes",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "name": "College Club Tie-ups",
+      "channel": "clubs",
+      "status": "active",
+      "budget_allocated": 10000,
+      "budget_spent": 6341,
+      "target_registrations": 2500,
+      "actual_registrations": 1198,
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-14",
+      "owner": "Kunal",
+      "notes": "Cultural committees, NSS, student bodies across 40 colleges; >20 group discount",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "name": "Email/WhatsApp Drip",
+      "channel": "email",
+      "status": "active",
+      "budget_allocated": 5000,
+      "budget_spent": 3029,
+      "target_registrations": 1500,
+      "actual_registrations": 710,
+      "start_date": "2026-12-14",
+      "end_date": "2026-12-21",
+      "owner": "Meera",
+      "notes": "Automated 7-day countdown drip to boost registrations & reduce show-up drop-off",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    }
+  ],
+  "daily_metrics": [
+    {
+      "date": "2026-12-01",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 475,
+      "registrations": 63,
+      "attendees": 42,
+      "cost_per_registration": 7.79,
+      "id": "46a4f8f1-ed2b-473f-b751-6435b6f11944",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-01",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 1215,
+      "registrations": 14,
+      "attendees": 9,
+      "cost_per_registration": 11.79,
+      "id": "c56371d3-32e5-4e7d-8908-9b132124c71b",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-01",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 546,
+      "registrations": 27,
+      "attendees": 18,
+      "cost_per_registration": 0,
+      "id": "ff2ba9b3-f41a-42fa-82cc-4af6ba866189",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-01",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 213,
+      "registrations": 21,
+      "attendees": 14,
+      "cost_per_registration": 5.33,
+      "id": "f1835a8e-a1ef-4e33-a513-14911196690a",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-01",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 164,
+      "registrations": 16,
+      "attendees": 11,
+      "cost_per_registration": 4.31,
+      "id": "8953b2e2-039a-4ee8-9444-84256ea7199b",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-02",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 550,
+      "registrations": 73,
+      "attendees": 49,
+      "cost_per_registration": 7.79,
+      "id": "336dcb2e-6b83-4eaa-b658-b920e71be420",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-02",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 1983,
+      "registrations": 23,
+      "attendees": 15,
+      "cost_per_registration": 11.74,
+      "id": "c9fc048e-0d0b-47ef-94b3-01988af474fc",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-02",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 572,
+      "registrations": 28,
+      "attendees": 19,
+      "cost_per_registration": 0,
+      "id": "9bb58a60-1d5e-4d01-9f5d-991cf953ce72",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-02",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 265,
+      "registrations": 26,
+      "attendees": 17,
+      "cost_per_registration": 5.38,
+      "id": "b8978ac6-54c6-453c-a5c2-c004449e62c0",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-02",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 139,
+      "registrations": 13,
+      "attendees": 9,
+      "cost_per_registration": 4.46,
+      "id": "3bb23a5e-e231-4933-850c-8b5bfa6024d7",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-03",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 513,
+      "registrations": 68,
+      "attendees": 46,
+      "cost_per_registration": 7.81,
+      "id": "46e56b2d-b877-4be9-94f1-59b4155dcc5d",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-03",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 1932,
+      "registrations": 23,
+      "attendees": 15,
+      "cost_per_registration": 11.43,
+      "id": "812813a3-6c56-40f2-98d4-f0172904ef6d",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-03",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 625,
+      "registrations": 31,
+      "attendees": 21,
+      "cost_per_registration": 0,
+      "id": "fffd97be-0af7-4f79-87ee-8d5c2e8173dd",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-03",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 271,
+      "registrations": 27,
+      "attendees": 18,
+      "cost_per_registration": 5.26,
+      "id": "d8ba7f0c-df57-4866-a2b9-5c805ef4bc89",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-03",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 204,
+      "registrations": 20,
+      "attendees": 13,
+      "cost_per_registration": 4.3,
+      "id": "6821eea3-8059-4e45-8d70-bd7f0100d55e",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-04",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 654,
+      "registrations": 87,
+      "attendees": 58,
+      "cost_per_registration": 7.77,
+      "id": "18f6f335-ae8d-48f6-8035-3a3b23a15efd",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-04",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 1903,
+      "registrations": 22,
+      "attendees": 15,
+      "cost_per_registration": 11.77,
+      "id": "1bc2b819-c7b0-4792-b32e-9ef2711ef983",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-04",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 887,
+      "registrations": 44,
+      "attendees": 29,
+      "cost_per_registration": 0,
+      "id": "fabca9c8-95d6-43c9-8fa0-4801ecb7c0b9",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-04",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 385,
+      "registrations": 38,
+      "attendees": 25,
+      "cost_per_registration": 5.32,
+      "id": "11f2317b-e5bb-47a3-b3d3-d61f083afba1",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-04",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 171,
+      "registrations": 17,
+      "attendees": 11,
+      "cost_per_registration": 4.24,
+      "id": "b6cbeb22-4ba9-4226-bec4-e30a1ea1f2f3",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-05",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 793,
+      "registrations": 105,
+      "attendees": 70,
+      "cost_per_registration": 7.81,
+      "id": "2b9d35a7-2f76-4d96-b168-e5f9f49ea00b",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-05",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 2543,
+      "registrations": 30,
+      "attendees": 20,
+      "cost_per_registration": 11.53,
+      "id": "292ededc-ff21-41f4-a8f8-ede2f8d8ee6a",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-05",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 882,
+      "registrations": 44,
+      "attendees": 29,
+      "cost_per_registration": 0,
+      "id": "70e9b568-4810-4bee-b235-dc56ee3e3370",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-05",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 325,
+      "registrations": 32,
+      "attendees": 21,
+      "cost_per_registration": 5.34,
+      "id": "123cf20f-98f5-49bd-9549-f2ae2baa7e47",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-05",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 278,
+      "registrations": 27,
+      "attendees": 18,
+      "cost_per_registration": 4.33,
+      "id": "a170cada-06de-4cfa-995e-8c0c502e4b15",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-06",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 721,
+      "registrations": 96,
+      "attendees": 64,
+      "cost_per_registration": 7.76,
+      "id": "d68088da-84b0-41cb-bb14-1f3891ba3f70",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-06",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 2152,
+      "registrations": 25,
+      "attendees": 17,
+      "cost_per_registration": 11.72,
+      "id": "02da13f5-78f3-437c-992b-ba046074d880",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-06",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 862,
+      "registrations": 43,
+      "attendees": 29,
+      "cost_per_registration": 0,
+      "id": "1966f4f4-68bc-4516-a461-6d35a1e107ce",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-06",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 468,
+      "registrations": 46,
+      "attendees": 31,
+      "cost_per_registration": 5.35,
+      "id": "c89a44d4-4e78-4e72-bb1b-93680ce1160c",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-06",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 267,
+      "registrations": 26,
+      "attendees": 17,
+      "cost_per_registration": 4.31,
+      "id": "6c91a56c-a745-43ef-a414-3cde94e61480",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-07",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 938,
+      "registrations": 125,
+      "attendees": 84,
+      "cost_per_registration": 7.76,
+      "id": "d818a749-4c36-4d11-b9f2-34f69f1dbab0",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-07",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 3041,
+      "registrations": 36,
+      "attendees": 24,
+      "cost_per_registration": 11.5,
+      "id": "087110d5-8f3e-4e74-a025-7f2a13493438",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-07",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 1130,
+      "registrations": 56,
+      "attendees": 38,
+      "cost_per_registration": 0,
+      "id": "b10acaf0-6825-4fda-9bd9-1be1e2c4ff60",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-07",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 530,
+      "registrations": 53,
+      "attendees": 36,
+      "cost_per_registration": 5.25,
+      "id": "02236bcc-24d7-4d19-8a05-0374bf14a1dc",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-07",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 265,
+      "registrations": 26,
+      "attendees": 17,
+      "cost_per_registration": 4.27,
+      "id": "19fa3120-e72d-4884-a58e-043dc1efdd69",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-08",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 918,
+      "registrations": 122,
+      "attendees": 82,
+      "cost_per_registration": 7.78,
+      "id": "cbb45e6f-5dfe-44dd-abce-a87d216c6ab2",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-08",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 3395,
+      "registrations": 40,
+      "attendees": 27,
+      "cost_per_registration": 11.55,
+      "id": "474caf5b-a61d-4389-81cb-e7a3c988baa0",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-08",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 1256,
+      "registrations": 62,
+      "attendees": 42,
+      "cost_per_registration": 0,
+      "id": "dbbab942-ca1c-4218-90c1-d017b892e4ea",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-08",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 549,
+      "registrations": 54,
+      "attendees": 36,
+      "cost_per_registration": 5.33,
+      "id": "def0fe77-708b-47e3-a98d-28abf999e5d1",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-08",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 309,
+      "registrations": 30,
+      "attendees": 20,
+      "cost_per_registration": 4.33,
+      "id": "f7a95b5e-5506-4079-9a49-f0f272fce34b",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-09",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1043,
+      "registrations": 139,
+      "attendees": 93,
+      "cost_per_registration": 7.76,
+      "id": "2002ab77-3acd-481f-bf45-ff65a831dd89",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-09",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 2630,
+      "registrations": 31,
+      "attendees": 21,
+      "cost_per_registration": 11.55,
+      "id": "9c69fc8b-9af3-4922-bfa9-158739030157",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-09",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 1145,
+      "registrations": 57,
+      "attendees": 38,
+      "cost_per_registration": 0,
+      "id": "4ec099e2-8697-4f81-8e2d-594028d3a363",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-09",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 470,
+      "registrations": 47,
+      "attendees": 31,
+      "cost_per_registration": 5.26,
+      "id": "16f19662-b71f-4680-8c53-a2838ba5f093",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-09",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 267,
+      "registrations": 26,
+      "attendees": 17,
+      "cost_per_registration": 4.31,
+      "id": "49a0b009-d3d0-422f-9bc4-77ae6c7b20a6",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-10",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 918,
+      "registrations": 122,
+      "attendees": 82,
+      "cost_per_registration": 7.78,
+      "id": "8b541d56-2235-46ef-8bb6-3d36bfc28aae",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-10",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 2881,
+      "registrations": 34,
+      "attendees": 23,
+      "cost_per_registration": 11.53,
+      "id": "c362f1f9-d21b-43eb-ae36-438e9127c239",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-10",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 1249,
+      "registrations": 62,
+      "attendees": 42,
+      "cost_per_registration": 0,
+      "id": "4cd09fe1-a58f-466c-8a02-aad8346df760",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-10",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 578,
+      "registrations": 57,
+      "attendees": 38,
+      "cost_per_registration": 5.33,
+      "id": "ee23e4e4-ea0c-4d27-8983-4cd61bc0bd4c",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-10",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 324,
+      "registrations": 32,
+      "attendees": 21,
+      "cost_per_registration": 4.25,
+      "id": "bc2b4ffb-f43b-499e-8aed-b88d106aba96",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-11",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1036,
+      "registrations": 138,
+      "attendees": 92,
+      "cost_per_registration": 7.76,
+      "id": "8416e4a7-9dc5-411e-b55a-9068a0260943",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-11",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 3219,
+      "registrations": 38,
+      "attendees": 25,
+      "cost_per_registration": 11.53,
+      "id": "272f2a80-7fd7-48b0-8b15-7aff6ca9e4ce",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-11",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 1321,
+      "registrations": 66,
+      "attendees": 44,
+      "cost_per_registration": 0,
+      "id": "0f9111b0-05a5-436e-8f70-2726aebec3fa",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-11",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 684,
+      "registrations": 68,
+      "attendees": 46,
+      "cost_per_registration": 5.28,
+      "id": "841c56ac-ffef-406a-8171-8966d6455fea",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-11",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 385,
+      "registrations": 38,
+      "attendees": 25,
+      "cost_per_registration": 4.26,
+      "id": "b51bea12-74b5-44cf-9357-7ab174f68b18",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-12",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1207,
+      "registrations": 161,
+      "attendees": 108,
+      "cost_per_registration": 7.75,
+      "id": "63cb08a9-c7e2-4893-abe3-553de0ede361",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-12",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 3349,
+      "registrations": 40,
+      "attendees": 27,
+      "cost_per_registration": 11.4,
+      "id": "7ea0a5a0-03c3-4d93-ad1a-3273e8068730",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-12",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 1684,
+      "registrations": 84,
+      "attendees": 56,
+      "cost_per_registration": 0,
+      "id": "1eef3427-8142-4c26-8d52-30b90d788744",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-12",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 534,
+      "registrations": 53,
+      "attendees": 36,
+      "cost_per_registration": 5.28,
+      "id": "49f4affc-b2e3-48c6-bbf8-6d14fbd9ac4c",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-12",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 367,
+      "registrations": 36,
+      "attendees": 24,
+      "cost_per_registration": 4.28,
+      "id": "e247c7c9-2736-4f15-84a0-764e663b61f7",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-13",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1460,
+      "registrations": 194,
+      "attendees": 130,
+      "cost_per_registration": 7.78,
+      "id": "5eec1e8e-b9a1-46ac-acf2-e73da1c43b6f",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-13",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 4299,
+      "registrations": 51,
+      "attendees": 34,
+      "cost_per_registration": 11.47,
+      "id": "63438342-9a66-424b-abc2-04fb2ee44d81",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-13",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 1665,
+      "registrations": 83,
+      "attendees": 56,
+      "cost_per_registration": 0,
+      "id": "58ad544b-87b2-4a34-9791-e058a4da56b5",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-13",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 699,
+      "registrations": 69,
+      "attendees": 46,
+      "cost_per_registration": 5.32,
+      "id": "e12054d5-77ce-4d9c-ac84-f488074501e2",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-13",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 462,
+      "registrations": 46,
+      "attendees": 31,
+      "cost_per_registration": 4.22,
+      "id": "d7e1620e-f2d7-45d0-984c-725543921d28",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-14",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1427,
+      "registrations": 190,
+      "attendees": 127,
+      "cost_per_registration": 7.76,
+      "id": "119757ca-3f6e-44c3-8385-8f42b2298417",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-14",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 3821,
+      "registrations": 45,
+      "attendees": 30,
+      "cost_per_registration": 11.56,
+      "id": "02459457-ad66-4e6d-8334-5029e2a598a4",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-14",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 1393,
+      "registrations": 69,
+      "attendees": 46,
+      "cost_per_registration": 0,
+      "id": "b6c1541a-5c17-47b5-81ec-bc6c80adc965",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-14",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 635,
+      "registrations": 63,
+      "attendees": 42,
+      "cost_per_registration": 5.29,
+      "id": "e0b471af-57db-4306-91b4-437a893c462e",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-14",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 388,
+      "registrations": 38,
+      "attendees": 25,
+      "cost_per_registration": 4.29,
+      "id": "eabba195-ea0e-45c8-a88e-8f42944a78fe",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-15",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1193,
+      "registrations": 159,
+      "attendees": 107,
+      "cost_per_registration": 7.76,
+      "id": "54c0420f-538a-4355-9cde-82485dffca5e",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-15",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 5297,
+      "registrations": 63,
+      "attendees": 42,
+      "cost_per_registration": 11.43,
+      "id": "07578cc4-0022-482a-a504-def87fdc1cdc",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-15",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 2070,
+      "registrations": 103,
+      "attendees": 69,
+      "cost_per_registration": 0,
+      "id": "2b235193-f014-4eee-a07d-9fb618631256",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-15",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 666,
+      "registrations": 66,
+      "attendees": 44,
+      "cost_per_registration": 5.3,
+      "id": "c95ba75c-5d11-4627-8a8b-117cf85c407d",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-15",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 477,
+      "registrations": 47,
+      "attendees": 31,
+      "cost_per_registration": 4.28,
+      "id": "b0325387-12e9-47c8-970c-53a66bc7449a",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-16",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1355,
+      "registrations": 180,
+      "attendees": 121,
+      "cost_per_registration": 7.78,
+      "id": "4686fc53-adb5-4879-ac8e-9554c91d8331",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-16",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 5496,
+      "registrations": 65,
+      "attendees": 44,
+      "cost_per_registration": 11.49,
+      "id": "764a31d5-d712-4148-8065-c2f99d950eb0",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-16",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 1854,
+      "registrations": 92,
+      "attendees": 62,
+      "cost_per_registration": 0,
+      "id": "97002e46-092a-4bf1-8e59-f78a9d6f3743",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-16",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 683,
+      "registrations": 68,
+      "attendees": 46,
+      "cost_per_registration": 5.28,
+      "id": "5d2d9ea4-370d-4c1c-80aa-9ab2b7ab7170",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-16",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 423,
+      "registrations": 42,
+      "attendees": 28,
+      "cost_per_registration": 4.24,
+      "id": "ed74a765-c4bf-464a-a01d-e56b67114aa1",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-17",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1514,
+      "registrations": 201,
+      "attendees": 135,
+      "cost_per_registration": 7.79,
+      "id": "ce2a745d-fc70-4466-b92d-4ac7254d8f28",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-17",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 4460,
+      "registrations": 53,
+      "attendees": 36,
+      "cost_per_registration": 11.45,
+      "id": "c50215ee-87c2-485d-8515-a0eb84d87f08",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-17",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 2038,
+      "registrations": 101,
+      "attendees": 68,
+      "cost_per_registration": 0,
+      "id": "e884523f-818e-4fcd-9807-bcfaeb575166",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-17",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 914,
+      "registrations": 91,
+      "attendees": 61,
+      "cost_per_registration": 5.27,
+      "id": "b9358835-0d97-4e8d-b1aa-4da0443df8d2",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-17",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 473,
+      "registrations": 47,
+      "attendees": 31,
+      "cost_per_registration": 4.23,
+      "id": "814b7563-f6bd-4bfb-923d-4116ae3b684e",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-18",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1331,
+      "registrations": 177,
+      "attendees": 119,
+      "cost_per_registration": 7.77,
+      "id": "82aa6961-b06f-4b9c-bf02-d7b0992ade92",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-18",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 5995,
+      "registrations": 71,
+      "attendees": 48,
+      "cost_per_registration": 11.48,
+      "id": "3f2ab4ff-d692-48d4-acba-10fa7e92a41a",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-18",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 2007,
+      "registrations": 100,
+      "attendees": 67,
+      "cost_per_registration": 0,
+      "id": "3fa4214a-b3d3-4f3a-bb96-ab51c47a8002",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-18",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 669,
+      "registrations": 66,
+      "attendees": 44,
+      "cost_per_registration": 5.32,
+      "id": "7ce45056-e119-47bf-8d0e-07750f09708f",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-18",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 409,
+      "registrations": 40,
+      "attendees": 27,
+      "cost_per_registration": 4.3,
+      "id": "42cb0e0f-7fd7-445d-bd91-1e05fad085db",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-19",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1265,
+      "registrations": 168,
+      "attendees": 113,
+      "cost_per_registration": 7.79,
+      "id": "bc733adf-d760-4d96-971c-9cf4bc352c63",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-19",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 5254,
+      "registrations": 63,
+      "attendees": 42,
+      "cost_per_registration": 11.35,
+      "id": "5a4fbe31-34d1-4922-9913-4626f91d3aa7",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-19",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 2233,
+      "registrations": 111,
+      "attendees": 74,
+      "cost_per_registration": 0,
+      "id": "73e8e897-bea7-44bc-9983-ed9bfe144bbf",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-19",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 775,
+      "registrations": 77,
+      "attendees": 52,
+      "cost_per_registration": 5.29,
+      "id": "e0be8aef-70cd-49e5-b86e-f975807587f3",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-19",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 412,
+      "registrations": 41,
+      "attendees": 27,
+      "cost_per_registration": 4.22,
+      "id": "44901152-e6ed-4010-8040-a4090c96cacd",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-20",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1428,
+      "registrations": 190,
+      "attendees": 127,
+      "cost_per_registration": 7.77,
+      "id": "acac808b-484a-4c17-8ee3-a901b18cd235",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-20",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 5992,
+      "registrations": 71,
+      "attendees": 48,
+      "cost_per_registration": 11.48,
+      "id": "568c2ac1-ea09-4924-b8dd-472515ee9314",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-20",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 2023,
+      "registrations": 101,
+      "attendees": 68,
+      "cost_per_registration": 0,
+      "id": "a422a696-510c-431b-a827-8726bb115f2c",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-20",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 950,
+      "registrations": 95,
+      "attendees": 64,
+      "cost_per_registration": 5.25,
+      "id": "270a53ea-5a38-4dbc-be16-08b5fde85515",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-20",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 572,
+      "registrations": 57,
+      "attendees": 38,
+      "cost_per_registration": 4.21,
+      "id": "0df93f90-4f34-40fc-9acd-8d3708c26320",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-21",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "reach": 1206,
+      "registrations": 160,
+      "attendees": 107,
+      "cost_per_registration": 7.79,
+      "id": "83b0b9f2-70eb-4154-91f7-eb6492df1d96",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-21",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "reach": 5441,
+      "registrations": 65,
+      "attendees": 44,
+      "cost_per_registration": 11.38,
+      "id": "458d89db-885d-4b48-9c7e-8eedb6f52001",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-21",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "reach": 2145,
+      "registrations": 107,
+      "attendees": 72,
+      "cost_per_registration": 0,
+      "id": "ecbeeeb3-c4a2-44a1-809f-86cd823fcfe7",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-21",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "reach": 811,
+      "registrations": 81,
+      "attendees": 54,
+      "cost_per_registration": 5.26,
+      "id": "9c3518fc-456b-4f55-b0f7-3de797fbfd60",
+      "created_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "date": "2026-12-21",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "reach": 453,
+      "registrations": 45,
+      "attendees": 30,
+      "cost_per_registration": 4.22,
+      "id": "6ca23d70-fc16-4ab5-b556-2842832e6b30",
+      "created_at": "2026-11-26T09:00:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "a766623b-2c99-4c87-a0fd-a951c63d72ff",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "title": "Pilot check-in with top 5 Mumbai college ambassadors",
+      "owner": "Riya",
+      "due_date": "2026-12-05",
+      "status": "done",
+      "priority": "high",
+      "notes": "Pilot crossed 115 avg regs/ambassador; greenlit rollout to all 40 colleges.",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "id": "5849878b-c9a5-4ace-8ebd-55cdd49a6a6f",
+      "campaign_id": "6d06275a-7afd-4fe0-9279-3453fae1099b",
+      "title": "Onboard 10 additional Tier-2 engineering college ambassadors",
+      "owner": "Riya",
+      "due_date": "2026-12-12",
+      "status": "in_progress",
+      "priority": "high",
+      "notes": "Target DJ Sanghvi, VJTI, Sardar Patel, KJ Somaiya clusters.",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "id": "1e1f1e7d-c971-4c5c-84dd-d3103c71d7aa",
+      "campaign_id": "4b65eb27-b22c-42fc-b821-299f6cc59d42",
+      "title": "Audit Reel hashtag A/B test (#MumbaiFestLook vs #CampusVibe26)",
+      "owner": "Aryan",
+      "due_date": "2026-12-10",
+      "status": "pending",
+      "priority": "high",
+      "notes": "Monitor 48h share threshold (500 shares) and registration link CTR.",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "id": "5adf0045-ee32-4d67-9ea3-89c24c783ff8",
+      "campaign_id": "4b15255f-d0d1-4f31-ac95-08f62fa10e10",
+      "title": "Finalize bulk discount codes for 15 NSS & cultural committees",
+      "owner": "Kunal",
+      "due_date": "2026-12-08",
+      "status": "pending",
+      "priority": "medium",
+      "notes": "Clubs >20 members unlock 20% group pass perk before Dec 14 deadline.",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "id": "4604c4c0-8f54-4159-98ba-703d7aee509b",
+      "campaign_id": "c44ada08-d03c-442d-b583-43c7c8b97f30",
+      "title": "Configure free-to-Rs.199 paid pass upgrade banner on checkout",
+      "owner": "Priya",
+      "due_date": "2026-12-04",
+      "status": "done",
+      "priority": "medium",
+      "notes": "60% free / 40% paid ticket split tracking live.",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    },
+    {
+      "id": "685030c3-171b-4cfc-8b31-d1044a5a3dfc",
+      "campaign_id": "6c388962-3962-4bcd-b60f-65d2c0099b2e",
+      "title": "Set up 7-day WhatsApp & email countdown reminders",
+      "owner": "Meera",
+      "due_date": "2026-12-13",
+      "status": "in_progress",
+      "priority": "high",
+      "notes": "Target >40% open rate to protect 67% show-up rate.",
+      "created_at": "2026-11-26T09:00:00Z",
+      "updated_at": "2026-11-26T09:00:00Z"
+    }
+  ],
+  "funnel_targets": [
+    {
+      "id": "fcf5eade-70ea-4749-9cb7-72dab0bfac4e",
+      "metric": "reach",
+      "base_target": 83000,
+      "stretch_target": 150000,
+      "current_actual": 147113,
+      "updated_at": "2026-11-26T10:00:46.757Z"
+    },
+    {
+      "id": "c2ff2088-4add-43e7-960b-315289a60933",
+      "metric": "registrations",
+      "base_target": 15000,
+      "stretch_target": 27000,
+      "current_actual": 7200,
+      "updated_at": "2026-11-26T10:00:46.757Z"
+    },
+    {
+      "id": "f772781f-308f-47e3-bd68-21e4cb2e9baa",
+      "metric": "attendees",
+      "base_target": 10000,
+      "stretch_target": 18000,
+      "current_actual": 4824,
+      "updated_at": "2026-11-26T10:00:46.757Z"
+    }
+  ]
+}

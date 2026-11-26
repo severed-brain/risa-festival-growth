@@ -1,0 +1,701 @@
+{
+  "dataset_name": "CampusFest 2025 (Original Attendee Dataset.xlsx)",
+  "notes": [
+    "All records cover 15 January - 20 April 2025 (Asia/Kolkata). Event dates: 12-13 April 2025.",
+    "Identical source IDs were deduplicated (daily activity_id: 483->481, registration_history history_id: 5911->5907, checkins event_id: 3390->3370).",
+    "Historical targets apply to distinct EXTERNAL people (3,625 external out of 3,685 total people; 40 internal, 10 staff, 10 test).",
+    "Platform reported_reach is daily-only without cross-day deduplication; summing it does not yield globally unique people."
+  ],
+  "event": {
+    "event_name": "CampusFest 2025",
+    "history_start": "2025-01-15T00:00:00",
+    "history_end": "2025-04-20T00:00:00",
+    "event_starts_at": "2025-04-12T10:00:00",
+    "event_ends_at": "2025-04-13T20:00:00",
+    "timezone": "Asia/Kolkata",
+    "currency": "INR",
+    "fictional": "True"
+  },
+  "targets": [
+    {
+      "effective_at": "2025-01-15T09:00:00",
+      "identified_external_people_goal": "3200.0",
+      "registration_goal": "2800.0",
+      "unique_external_visitors_goal": "1800.0",
+      "marketing_budget_inr": "240000.0",
+      "target_version": "Attendee launch plan"
+    },
+    {
+      "effective_at": "2025-03-15T09:00:00",
+      "identified_external_people_goal": "3600.0",
+      "registration_goal": "3200.0",
+      "unique_external_visitors_goal": "2200.0",
+      "marketing_budget_inr": "300000.0",
+      "target_version": "Attendee revised plan"
+    }
+  ],
+  "totals": {
+    "total_people_all_types": 3685,
+    "people_by_type": {
+      "external": 3625,
+      "internal": 40,
+      "staff": 10,
+      "test": 10
+    },
+    "people_by_first_touch_source": {
+      "campaign": 3500,
+      "internal_registration": 40,
+      "event_access": 20,
+      "walk_in": 125
+    },
+    "external_people_identified": 3625,
+    "distinct_external_registered_people": 2800,
+    "latest_external_registration_statuses": {
+      "confirmed": 2500,
+      "cancelled": 183,
+      "waitlisted": 88,
+      "interested": 29
+    },
+    "distinct_verified_admitted_external_visitors": 2050,
+    "unattributed_walkin_verified_external_visitors": 125,
+    "checkin_records_dedup_breakdown": {
+      "admitted_verified_manual": 305,
+      "admitted_verified_scanner": 2985,
+      "denied_verified_scanner": 50,
+      "pending_unverified_scanner": 30
+    },
+    "total_net_marketing_spend_inr": 274000,
+    "overall_cost_per_external_registration_inr": 97.86,
+    "overall_cost_per_verified_external_visitor_inr": 133.66,
+    "checkin_dates_unique_ext_visitors": {
+      "2025-04-12": 1430,
+      "2025-04-13": 1345
+    },
+    "interaction_event_totals": {
+      "page_visit": 3500,
+      "brochure_download": 1818,
+      "registration_start": 3075,
+      "nurture_email_sent": 1400,
+      "nurture_email_opened": 992,
+      "nurture_email_clicked": 409,
+      "opted_out": 229,
+      "event_question_submitted": 227
+    }
+  },
+  "campaigns": [
+    {
+      "campaign_id": "C01",
+      "campaign_name": "Campus Ambassadors",
+      "channel": "ambassadors",
+      "owner_name": "Meera Iyer",
+      "owner_id": "T03",
+      "target_audience": "Students hearing about the event through peer representatives",
+      "objective": "Turn peer conversations into identified interest and completed registrations",
+      "planned_start": "2025-01-25",
+      "planned_end": "2025-04-13",
+      "active_days": 77,
+      "marketing_spend_inr": 42000,
+      "impressions": 136929,
+      "clicks": 4862,
+      "ctr_pct": 3.55,
+      "sum_daily_reported_reach_non_unique": 89152,
+      "landing_page_sessions": 3685,
+      "anonymous_registration_starts": 968,
+      "identified_external_people_first_touch": 600,
+      "identified_external_people_any_interaction": 600,
+      "registered_external_people": 520,
+      "registration_statuses": {
+        "confirmed": 480,
+        "cancelled": 23,
+        "waitlisted": 13,
+        "interested": 4
+      },
+      "verified_external_visitors": 390,
+      "cost_per_registered_person_inr": 80.77,
+      "cost_per_verified_visitor_inr": 107.69,
+      "reg_to_visit_show_up_pct": 75.0,
+      "interaction_events": {
+        "page_visit": 600,
+        "brochure_download": 347,
+        "event_question_submitted": 91,
+        "nurture_email_sent": 210,
+        "nurture_email_opened": 146,
+        "registration_start": 550,
+        "nurture_email_clicked": 63,
+        "opted_out": 18
+      },
+      "monthly_breakdown": {
+        "2025-01": {
+          "spend_inr": 4300,
+          "impressions": 12218,
+          "clicks": 449,
+          "sessions": 353,
+          "reg_starts": 83,
+          "registrations": 44
+        },
+        "2025-02": {
+          "spend_inr": 19350,
+          "impressions": 48808,
+          "clicks": 1807,
+          "sessions": 1356,
+          "reg_starts": 353,
+          "registrations": 182
+        },
+        "2025-03": {
+          "spend_inr": 15050,
+          "impressions": 55799,
+          "clicks": 1903,
+          "sessions": 1457,
+          "reg_starts": 422,
+          "registrations": 228
+        },
+        "2025-04": {
+          "spend_inr": 3300,
+          "impressions": 20104,
+          "clicks": 703,
+          "sessions": 519,
+          "reg_starts": 110,
+          "registrations": 66
+        }
+      }
+    },
+    {
+      "campaign_id": "C02",
+      "campaign_name": "Paid Social",
+      "channel": "paid_social",
+      "owner_name": "Arjun Verma",
+      "owner_id": "T04",
+      "target_audience": "Students discovering the event through paid social content",
+      "objective": "Acquire new interest and test progression from clicks to registration",
+      "planned_start": "2025-02-01",
+      "planned_end": "2025-04-13",
+      "active_days": 70,
+      "marketing_spend_inr": 93000,
+      "impressions": 325693,
+      "clicks": 6867,
+      "ctr_pct": 2.11,
+      "sum_daily_reported_reach_non_unique": 200922,
+      "landing_page_sessions": 5282,
+      "anonymous_registration_starts": 1145,
+      "identified_external_people_first_touch": 960,
+      "identified_external_people_any_interaction": 960,
+      "registered_external_people": 680,
+      "registration_statuses": {
+        "confirmed": 580,
+        "cancelled": 60,
+        "waitlisted": 30,
+        "interested": 10
+      },
+      "verified_external_visitors": 340,
+      "cost_per_registered_person_inr": 136.76,
+      "cost_per_verified_visitor_inr": 273.53,
+      "reg_to_visit_show_up_pct": 50.0,
+      "interaction_events": {
+        "page_visit": 960,
+        "brochure_download": 244,
+        "nurture_email_sent": 450,
+        "nurture_email_opened": 324,
+        "nurture_email_clicked": 127,
+        "registration_start": 780,
+        "opted_out": 117
+      },
+      "monthly_breakdown": {
+        "2025-02": {
+          "spend_inr": 52800,
+          "impressions": 150257,
+          "clicks": 4088,
+          "sessions": 3104,
+          "reg_starts": 663,
+          "registrations": 467
+        },
+        "2025-03": {
+          "spend_inr": 33600,
+          "impressions": 131518,
+          "clicks": 2195,
+          "sessions": 1705,
+          "reg_starts": 380,
+          "registrations": 169
+        },
+        "2025-04": {
+          "spend_inr": 6600,
+          "impressions": 43918,
+          "clicks": 584,
+          "sessions": 473,
+          "reg_starts": 102,
+          "registrations": 44
+        }
+      }
+    },
+    {
+      "campaign_id": "C03",
+      "campaign_name": "Creator Partners",
+      "channel": "creators",
+      "owner_name": "Nisha Rao",
+      "owner_id": "T05",
+      "target_audience": "Students engaging with creator-led event content",
+      "objective": "Move creator-content engagement toward programme exploration and registration",
+      "planned_start": "2025-02-10",
+      "planned_end": "2025-04-13",
+      "active_days": 62,
+      "marketing_spend_inr": 59000,
+      "impressions": 209666,
+      "clicks": 5274,
+      "ctr_pct": 2.52,
+      "sum_daily_reported_reach_non_unique": 140926,
+      "landing_page_sessions": 4066,
+      "anonymous_registration_starts": 720,
+      "identified_external_people_first_touch": 490,
+      "identified_external_people_any_interaction": 490,
+      "registered_external_people": 350,
+      "registration_statuses": {
+        "confirmed": 290,
+        "cancelled": 36,
+        "waitlisted": 18,
+        "interested": 6
+      },
+      "verified_external_visitors": 175,
+      "cost_per_registered_person_inr": 168.57,
+      "cost_per_verified_visitor_inr": 337.14,
+      "reg_to_visit_show_up_pct": 50.0,
+      "interaction_events": {
+        "page_visit": 490,
+        "registration_start": 420,
+        "brochure_download": 174,
+        "nurture_email_sent": 228,
+        "nurture_email_opened": 163,
+        "nurture_email_clicked": 64,
+        "opted_out": 43
+      },
+      "monthly_breakdown": {
+        "2025-02": {
+          "spend_inr": 24400,
+          "impressions": 63893,
+          "clicks": 1652,
+          "sessions": 1294,
+          "reg_starts": 235,
+          "registrations": 107
+        },
+        "2025-03": {
+          "spend_inr": 30500,
+          "impressions": 107641,
+          "clicks": 2638,
+          "sessions": 2014,
+          "reg_starts": 351,
+          "registrations": 175
+        },
+        "2025-04": {
+          "spend_inr": 4100,
+          "impressions": 38132,
+          "clicks": 984,
+          "sessions": 758,
+          "reg_starts": 134,
+          "registrations": 68
+        }
+      }
+    },
+    {
+      "campaign_id": "C04",
+      "campaign_name": "College Partnerships",
+      "channel": "college_partners",
+      "owner_name": "Meera Iyer",
+      "owner_id": "T03",
+      "target_audience": "College clubs and groups exploring participation together",
+      "objective": "Help group organizers progress from programme questions to confirmed attendance",
+      "planned_start": "2025-01-28",
+      "planned_end": "2025-04-13",
+      "active_days": 74,
+      "marketing_spend_inr": 31000,
+      "impressions": 150205,
+      "clicks": 6736,
+      "ctr_pct": 4.48,
+      "sum_daily_reported_reach_non_unique": 98433,
+      "landing_page_sessions": 5246,
+      "anonymous_registration_starts": 841,
+      "identified_external_people_first_touch": 500,
+      "identified_external_people_any_interaction": 500,
+      "registered_external_people": 450,
+      "registration_statuses": {
+        "confirmed": 420,
+        "cancelled": 18,
+        "waitlisted": 9,
+        "interested": 3
+      },
+      "verified_external_visitors": 385,
+      "cost_per_registered_person_inr": 68.89,
+      "cost_per_verified_visitor_inr": 80.52,
+      "reg_to_visit_show_up_pct": 85.6,
+      "interaction_events": {
+        "page_visit": 500,
+        "brochure_download": 403,
+        "event_question_submitted": 74,
+        "registration_start": 470,
+        "nurture_email_sent": 162,
+        "nurture_email_opened": 113,
+        "nurture_email_clicked": 50,
+        "opted_out": 16
+      },
+      "monthly_breakdown": {
+        "2025-01": {
+          "spend_inr": 3150,
+          "impressions": 6095,
+          "clicks": 247,
+          "sessions": 187,
+          "reg_starts": 29,
+          "registrations": 9
+        },
+        "2025-02": {
+          "spend_inr": 9450,
+          "impressions": 43283,
+          "clicks": 1973,
+          "sessions": 1509,
+          "reg_starts": 214,
+          "registrations": 83
+        },
+        "2025-03": {
+          "spend_inr": 12600,
+          "impressions": 72481,
+          "clicks": 3193,
+          "sessions": 2504,
+          "reg_starts": 425,
+          "registrations": 237
+        },
+        "2025-04": {
+          "spend_inr": 5800,
+          "impressions": 28346,
+          "clicks": 1323,
+          "sessions": 1046,
+          "reg_starts": 173,
+          "registrations": 121
+        }
+      }
+    },
+    {
+      "campaign_id": "C05",
+      "campaign_name": "Student Referrals",
+      "channel": "referrals",
+      "owner_name": "Dev Malhotra",
+      "owner_id": "T06",
+      "target_audience": "Friends invited by already interested students",
+      "objective": "Convert invited friends while tracking registration completion",
+      "planned_start": "2025-02-12",
+      "planned_end": "2025-04-13",
+      "active_days": 60,
+      "marketing_spend_inr": 19000,
+      "impressions": 72438,
+      "clicks": 3453,
+      "ctr_pct": 4.77,
+      "sum_daily_reported_reach_non_unique": 48915,
+      "landing_page_sessions": 2575,
+      "anonymous_registration_starts": 679,
+      "identified_external_people_first_touch": 410,
+      "identified_external_people_any_interaction": 410,
+      "registered_external_people": 350,
+      "registration_statuses": {
+        "confirmed": 320,
+        "cancelled": 18,
+        "waitlisted": 9,
+        "interested": 3
+      },
+      "verified_external_visitors": 275,
+      "cost_per_registered_person_inr": 54.29,
+      "cost_per_verified_visitor_inr": 69.09,
+      "reg_to_visit_show_up_pct": 78.6,
+      "interaction_events": {
+        "page_visit": 410,
+        "brochure_download": 277,
+        "nurture_email_sent": 148,
+        "nurture_email_opened": 104,
+        "registration_start": 380,
+        "event_question_submitted": 62,
+        "nurture_email_clicked": 45,
+        "opted_out": 14
+      },
+      "monthly_breakdown": {
+        "2025-02": {
+          "spend_inr": 7800,
+          "impressions": 17214,
+          "clicks": 823,
+          "sessions": 632,
+          "reg_starts": 159,
+          "registrations": 44
+        },
+        "2025-03": {
+          "spend_inr": 9750,
+          "impressions": 39582,
+          "clicks": 1852,
+          "sessions": 1345,
+          "reg_starts": 378,
+          "registrations": 212
+        },
+        "2025-04": {
+          "spend_inr": 1450,
+          "impressions": 15642,
+          "clicks": 778,
+          "sessions": 598,
+          "reg_starts": 142,
+          "registrations": 94
+        }
+      }
+    },
+    {
+      "campaign_id": "C06",
+      "campaign_name": "Organic Search",
+      "channel": "organic",
+      "owner_name": "Arjun Verma",
+      "owner_id": "T04",
+      "target_audience": "People actively searching for event information",
+      "objective": "Help information-seeking visitors find details and complete registration",
+      "planned_start": "2025-01-20",
+      "planned_end": "2025-04-13",
+      "active_days": 82,
+      "marketing_spend_inr": 14000,
+      "impressions": 68402,
+      "clicks": 2404,
+      "ctr_pct": 3.51,
+      "sum_daily_reported_reach_non_unique": 45091,
+      "landing_page_sessions": 1893,
+      "anonymous_registration_starts": 714,
+      "identified_external_people_first_touch": 290,
+      "identified_external_people_any_interaction": 290,
+      "registered_external_people": 250,
+      "registration_statuses": {
+        "confirmed": 225,
+        "cancelled": 17,
+        "waitlisted": 6,
+        "interested": 2
+      },
+      "verified_external_visitors": 195,
+      "cost_per_registered_person_inr": 56.0,
+      "cost_per_verified_visitor_inr": 71.79,
+      "reg_to_visit_show_up_pct": 78.0,
+      "interaction_events": {
+        "page_visit": 290,
+        "brochure_download": 220,
+        "registration_start": 265,
+        "nurture_email_sent": 102,
+        "nurture_email_opened": 71,
+        "nurture_email_clicked": 30,
+        "opted_out": 11
+      },
+      "monthly_breakdown": {
+        "2025-01": {
+          "spend_inr": 3500,
+          "impressions": 9830,
+          "clicks": 332,
+          "sessions": 281,
+          "reg_starts": 120,
+          "registrations": 43
+        },
+        "2025-02": {
+          "spend_inr": 4200,
+          "impressions": 23413,
+          "clicks": 783,
+          "sessions": 623,
+          "reg_starts": 228,
+          "registrations": 88
+        },
+        "2025-03": {
+          "spend_inr": 4900,
+          "impressions": 24976,
+          "clicks": 927,
+          "sessions": 709,
+          "reg_starts": 278,
+          "registrations": 86
+        },
+        "2025-04": {
+          "spend_inr": 1400,
+          "impressions": 10183,
+          "clicks": 362,
+          "sessions": 280,
+          "reg_starts": 88,
+          "registrations": 33
+        }
+      }
+    },
+    {
+      "campaign_id": "C07",
+      "campaign_name": "Community Groups",
+      "channel": "community",
+      "owner_name": "Nisha Rao",
+      "owner_id": "T05",
+      "target_audience": "Members of student interest and community groups",
+      "objective": "Nurture community interest without over-contacting people who opt out",
+      "planned_start": "2025-02-15",
+      "planned_end": "2025-04-13",
+      "active_days": 56,
+      "marketing_spend_inr": 16000,
+      "impressions": 65682,
+      "clicks": 2474,
+      "ctr_pct": 3.77,
+      "sum_daily_reported_reach_non_unique": 42858,
+      "landing_page_sessions": 1898,
+      "anonymous_registration_starts": 481,
+      "identified_external_people_first_touch": 250,
+      "identified_external_people_any_interaction": 250,
+      "registered_external_people": 200,
+      "registration_statuses": {
+        "confirmed": 185,
+        "cancelled": 11,
+        "waitlisted": 3,
+        "interested": 1
+      },
+      "verified_external_visitors": 165,
+      "cost_per_registered_person_inr": 80.0,
+      "cost_per_verified_visitor_inr": 96.97,
+      "reg_to_visit_show_up_pct": 82.5,
+      "interaction_events": {
+        "page_visit": 250,
+        "brochure_download": 153,
+        "nurture_email_sent": 100,
+        "nurture_email_opened": 71,
+        "registration_start": 210,
+        "nurture_email_clicked": 30,
+        "opted_out": 10
+      },
+      "monthly_breakdown": {
+        "2025-02": {
+          "spend_inr": 6400,
+          "impressions": 17173,
+          "clicks": 638,
+          "sessions": 484,
+          "reg_starts": 112,
+          "registrations": 47
+        },
+        "2025-03": {
+          "spend_inr": 6400,
+          "impressions": 35819,
+          "clicks": 1312,
+          "sessions": 1013,
+          "reg_starts": 285,
+          "registrations": 116
+        },
+        "2025-04": {
+          "spend_inr": 3200,
+          "impressions": 12690,
+          "clicks": 524,
+          "sessions": 401,
+          "reg_starts": 84,
+          "registrations": 37
+        }
+      }
+    }
+  ],
+  "weekly_trends": [
+    {
+      "week": "2025-W03",
+      "spend_inr": 5700,
+      "impressions": 9827,
+      "clicks": 306,
+      "landing_page_sessions": 241,
+      "registration_starts": 90,
+      "external_registrations": 36
+    },
+    {
+      "week": "2025-W04",
+      "spend_inr": 21300,
+      "impressions": 38157,
+      "clicks": 1422,
+      "landing_page_sessions": 1085,
+      "registration_starts": 245,
+      "external_registrations": 110
+    },
+    {
+      "week": "2025-W05",
+      "spend_inr": 21225,
+      "impressions": 64559,
+      "clicks": 2038,
+      "landing_page_sessions": 1543,
+      "registration_starts": 381,
+      "external_registrations": 200
+    },
+    {
+      "week": "2025-W06",
+      "spend_inr": 25250,
+      "impressions": 97267,
+      "clicks": 3107,
+      "landing_page_sessions": 2396,
+      "registration_starts": 513,
+      "external_registrations": 279
+    },
+    {
+      "week": "2025-W07",
+      "spend_inr": 28275,
+      "impressions": 107809,
+      "clicks": 3446,
+      "landing_page_sessions": 2662,
+      "registration_starts": 579,
+      "external_registrations": 300
+    },
+    {
+      "week": "2025-W08",
+      "spend_inr": 33600,
+      "impressions": 103386,
+      "clicks": 3363,
+      "landing_page_sessions": 2596,
+      "registration_starts": 524,
+      "external_registrations": 249
+    },
+    {
+      "week": "2025-W09",
+      "spend_inr": 37425,
+      "impressions": 105680,
+      "clicks": 3173,
+      "landing_page_sessions": 2436,
+      "registration_starts": 442,
+      "external_registrations": 174
+    },
+    {
+      "week": "2025-W10",
+      "spend_inr": 20600,
+      "impressions": 103524,
+      "clicks": 2985,
+      "landing_page_sessions": 2282,
+      "registration_starts": 555,
+      "external_registrations": 258
+    },
+    {
+      "week": "2025-W11",
+      "spend_inr": 26675,
+      "impressions": 107165,
+      "clicks": 3318,
+      "landing_page_sessions": 2553,
+      "registration_starts": 632,
+      "external_registrations": 324
+    },
+    {
+      "week": "2025-W12",
+      "spend_inr": 20050,
+      "impressions": 107908,
+      "clicks": 3161,
+      "landing_page_sessions": 2409,
+      "registration_starts": 654,
+      "external_registrations": 354
+    },
+    {
+      "week": "2025-W13",
+      "spend_inr": 12800,
+      "impressions": 108046,
+      "clicks": 3317,
+      "landing_page_sessions": 2586,
+      "registration_starts": 630,
+      "external_registrations": 346
+    },
+    {
+      "week": "2025-W14",
+      "spend_inr": 23600,
+      "impressions": 75687,
+      "clicks": 2434,
+      "landing_page_sessions": 1856,
+      "registration_starts": 303,
+      "external_registrations": 170
+    },
+    {
+      "week": "2025-W15",
+      "spend_inr": -2500,
+      "impressions": 0,
+      "clicks": 0,
+      "landing_page_sessions": 0,
+      "registration_starts": 0
+    }
+  ]
+}
