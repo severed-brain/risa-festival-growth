@@ -153,6 +153,8 @@ def supabase_request(url, key, method, path, body=None, extra_headers=None):
 
 def generate_simulation(campaigns):
   random.seed(42)
+  channel_order = {c["channel"]: idx for idx, c in enumerate(DEFAULT_CAMPAIGNS)}
+  campaigns = sorted(campaigns, key=lambda c: channel_order.get(c.get("channel"), 99))
   start = date(2026, 12, 1)
   daily_rows = []
   camp_totals = {
