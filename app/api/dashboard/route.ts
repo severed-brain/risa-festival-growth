@@ -4,6 +4,7 @@ import { computeDashboardSummary } from "@/lib/analytics";
 import { getHistoricalDataset } from "@/lib/gemini";
 
 export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export async function GET() {
   try {
