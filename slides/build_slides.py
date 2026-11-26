@@ -544,7 +544,7 @@ def build_html(presenter_name: str, screenshot_b64: str) -> str:
         <div class="eyebrow">Slide 3 of 3 • Experimentation, Guardrails &amp; Live Command Center</div>
         <h1>How Will You Know What's Working? Signals &amp; AI Copilot</h1>
       </div>
-      <div class="meta-pill">Live App: Next.js + Supabase + Gemini 3.8 Flash</div>
+      <div class="meta-pill"><a href="https://risa-festival-growth.vercel.app/" style="color:#f8fafc;text-decoration:none;">Live Demo: risa-festival-growth.vercel.app</a></div>
     </div>
 
     <div class="grid-2">

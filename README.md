@@ -1,6 +1,8 @@
 # RISA Festival Growth Center — README
 
 - **Author**: Himansu Sekhar Sethy (Roll No: `22CH30048`)
+- **Live Product**: https://risa-festival-growth.vercel.app/
+- **GitHub Repository**: https://github.com/severed-brain/risa-festival-growth
 - **Challenge**: Challenge A — Attendee Growth
 - **City**: Mumbai (Mumbai Metropolitan Region)
 - **Why Mumbai**: 800+ colleges across MMR, established college festival culture (Mood Indigo at IIT-B, Malhar at St. Xavier's, Umang at NM), high 18–24 social media penetration, and strong local transport connectivity across college clusters.
